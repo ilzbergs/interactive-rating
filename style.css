@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Overpass:wght@400;700&display=swap');
+
+:root {
+    --orange: hsl(25, 97%, 53%);
+    --white: hsl(0, 0%, 100%);
+    --light-grey: hsl(217, 12%, 63%);
+    --dark-blue: hsl(213, 19%, 18%);
+    --medium-grey: hsl(216, 12%, 54%);
+    --very-dark-blue: hsl(216, 12%, 8%);
+    --font-size: 15px;
+    --mobile-width: 375px;
+    --desktop-width: 1440px;
+}
+
+body {
+    background-color: var(--very-dark-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.container {
+    max-width: var(--mobile-width);
+    background-color: var(--dark-blue);
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 2rem;
+}
+
+.icon-wrapp {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgb(52, 61, 68);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+   height: 1rem;
+}
+
+h1 {
+    color: var(--white);
+    font-family: 'Overpass';
+    font-weight: 700;
+}
+
+.description {
+    color: var(--medium-grey);
+    font-size: var(--font-size);
+    font-family: 'Overpass';
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+#ratings {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li a {
+    background-color: #323a46;
+    color: #778089;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+ul li a:focus {
+    background-color: #7a8696;
+    color: white;
+}
+
+ul li a:hover {
+    background-color: #f97618;
+    color: white;
+}
+
+
+button {
+    background-color: var(--orange);
+    color: var(--white);
+    border-radius: 30px;
+    height: 3rem;
+    border: none;
+    font-family: 'Overpass';
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: var(--white);
+    color: var(--orange);
+}
+
+#second-stage {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+
+}
