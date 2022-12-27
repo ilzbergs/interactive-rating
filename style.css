@@ -31,6 +31,7 @@ body {
     padding: 2rem;
 }
 
+
 .icon-wrapp {
     width: 2.5rem;
     height: 2.5rem;
@@ -132,6 +133,10 @@ button:hover {
     border-radius: 30px;
     display: flex;
     align-items: center;
+}
+
+.center{
+ text-align: center;
 }
 
 footer {
