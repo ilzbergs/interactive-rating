@@ -13,5 +13,5 @@ ratings.forEach(function (e) {
 function submit() {
     secondStage.style.display="flex";
     firstStage.style.display="none";
-    document.getElementById("selected").innerHTML = `You selected ${selectedRate} out of 5`;
+    document.getElementById("selected").innerHTML = `You selected ${selectedRate || 0} out of 5`;
 }

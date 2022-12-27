@@ -120,6 +120,20 @@ button:hover {
     align-items: center;
 }
 
+#selected {
+    color: var(--orange);
+}
+
+.second-stage {
+    background-color: #323a46;
+    height: 1rem;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
 footer {
     position: absolute;
     bottom: 0;
